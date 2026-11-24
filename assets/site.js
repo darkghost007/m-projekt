@@ -1,4 +1,4 @@
-/* Werkbank – kleine Animationen. Ohne Tracking, ohne externe Dienste.
+/* M-Projekt – kleine Animationen. Ohne Tracking, ohne externe Dienste.
    Ohne JavaScript oder bei „Bewegung reduzieren“ ist alles sofort sichtbar. */
 (function () {
   var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
