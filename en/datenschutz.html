@@ -103,7 +103,7 @@
 <p>Your API key is stored in your device's keychain and can sync end-to-end encrypted across your devices when settings sync and iCloud Keychain are enabled. It is used solely to authenticate with the selected provider and is never transmitted to us. The key is bound to the provider address you saved it for: if you switch providers, it is not sent to the new provider. Settings then show that a key is missing for that provider.</p>
 <p>A key is never sent over unencrypted HTTP to servers on the internet. For a local AI chat server using HTTP, you can explicitly allow the key for that address. The app sends transcription API keys only over HTTPS. Any content or chat key sent over HTTP is unencrypted and may be read on the network.</p>
 <h3>Turning it off</h3>
-<p>In Settings you can switch AI requests to Apple mode, withdraw consent for a provider or delete its stored key. Speech input and its consent are managed separately in Settings. Contact the provider directly about data already sent.</p>
+<p>In Settings you can switch AI requests to Apple mode, withdraw consent for a provider or delete its stored key. After that, no requests go to the previously chosen provider. In Apple mode, the processing via Private Cloud Compute described above applies. Speech input and its consent are managed separately in Settings. Contact the provider directly about data already sent.</p>
 </section>
 <section id="sharing-with-others"><h2><span class="num">8.</span> Sharing with others</h2>
 <p>When you share a project, you invite people through Apple's iCloud sharing, for example by email address or link. Apple handles the invitation and may display the project name and an app icon in the sharing preview. We do not receive or store these details.</p>
